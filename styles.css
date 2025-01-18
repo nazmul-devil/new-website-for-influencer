@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Poppins", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font-family: "Inter", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/* font-family: "Manrope", serif; */
+
+/* shared style */
+
+
+
+.font-poppins {
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-roboto {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-manrope {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.checked {
+    color: orange;
+}
+
+
+.banner,
+.navbar {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.button-primary {
+    background-color: rgba(224, 44, 109, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 2.625rem;
+    border: none;
+
+
+}
+
+/* nav-bar related style */
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-head {
+    color: rgba(58, 58, 58, 1);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.link-items {
+    gap: 2.125rem;
+}
+
+.nav-links {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+}
+
+/* banner related style */
+
+.banner {
+    height: 29.5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.banner-text {
+    width: 36.375rem;
+    margin: 0px;
+}
+
+.banner-head {
+    color: rgba(58, 58, 58, 1);
+    font-weight: 600;
+    font-size: 3.25rem;
+    line-height: 4.375rem;
+}
+
+.banner-description {
+    color: rgba(58, 58, 58, 1);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: auto;
+
+
+}
+
+.banner-img {
+    background-image: url("images/Circle\ design.svg");
+    width: 29.5rem;
+    margin-left: 8.3125rem;
+}
+
+.banner-img img {
+    width: 27.5rem;
+    height: 27.5rem;
+}
+
+/* sponsors */
+.sponsord {
+    max-width: 1110px;
+    max-height: 6.875rem;
+    margin: 4.31225rem auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+    padding: 36px 62px;
+}
+
+.sponsord img {
+    width: 100%;
+    height: 100%;
+}
+
+/* card related style */
+
+.cards {
+    text-align: center;
+    max-width: 1040px;
+    height: 103.875rem;
+    margin: 0 auto;
+}
+
+.cards>h2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: rgba(58, 58, 58, 1);
+    line height: 4.375rem;
+}
+
+.card-items{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    row-gap: 1.875rem;
+    column-gap: 1.875rem;
+}
+
+
+.card-container{
+    width: 20.5625rem;
+    height: 29.75rem;
+    padding: 14px 14px 20px 14px;
+    border-radius: 0.3125rem;
+    box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15) ;
+}
+
+.card-container img{
+             width: 100%;
+             height: 16rem;
+             border-radius: 0.3125rem;
+             margin-bottom: 1rem;
+}
+.card-container h3{
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: rgba(24, 25, 31, 1);
+    margin-bottom: 0.375rem;
+    margin-top: 0px;
+}
+.card-container h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 150%;
+    color:rgba(0, 0, 0, 0.87) ;
+    margin-top: 0px;
+}
+.card-container> .rating{
+    gap: 0.5rem;
+    /* padding: 0px;
+    margin-top: 0px; */
+}
+.card-container > p{
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 143%;
+    color:rgba(120, 120, 133, 1) ;
+}
+.light-11{
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    color:rgba(94, 99, 102, 1) ;
+}
+
+
+/* featured product related style */
+
+
+
+
+/* footer related style */
+
+
+
+/* code hidden */
+
+.hide {
+    display: none;
+}
+
+
+/* media queri */
+
+@media screen and (max-width:576px) {
+
+
+    .navbar {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-head {
+        text-align: center;
+    }
+
+    .link-items a {
+        text-align: center;
+        gap: 1rem;
+        margin: 0 auto;
+        padding: 0;
+        width: 99%;
+    }
+
+    .banner {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 99%;
+        height: 100%;
+    }
+
+    .banner-img {
+        margin: 0 auto;
+    }
+
+    .banner-text,
+    .banner-img img {
+        margin: 0 auto;
+        padding: 0;
+        width: 99%;
+        height: 100%;
+    }
+
+    .sponsord {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 3.125rem;
+    }
+    .card-items{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        row-gap: 1.875rem;
+    }
+
+
+} 
