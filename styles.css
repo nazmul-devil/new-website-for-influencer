@@ -183,7 +183,7 @@
 .card-container{
     width: 20.5625rem;
     height: 29.75rem;
-    padding: 14px 14px 20px 14px;
+    padding: 0.875rem 0.875rem 1.25rem 0.875rem;
     border-radius: 0.3125rem;
     box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15) ;
 }
@@ -230,11 +230,75 @@
 
 /* featured product related style */
 
+.featured-product{
+    width: 69.375rem;
+    height: 16.875rem;
+    margin: 6.25rem auto;
+    border-radius:mixed;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+}
 
+.featured-img img{
+    width: 25.25rem;
+    height: 16.875rem;
+    /* margin: 0; */
+    padding: 0;
+    border-radius: 7px;
+    border: none;
+}
 
+.featured-text{
+   width: 38.125rem;
+   height: 14rem;
+   margin: 0;
+   padding: 0; 
+   text-align: start;
+   justify-content: flex-start;
+   justify-items: center;
+   align-items: flex-start;
+   flex-direction:column;
+}
 
+.featured-text > h2{
+    margin-bottom: 1rem;
+    font-size: 2.375rem;
+    font-weight: 600;
+    line-height: 3.75rem;
+    color:rgba(10, 8, 38, 1) ;
+}
+.featured-text > p{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    color:rgba(108, 108, 108, 1) ;
+}
 /* footer related style */
-
+.footer-container{
+    background-color:rgb(2, 2, 29) ;
+    background-size: cover;
+    padding:3.125rem auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-container  h3{
+    margin-bottom: 0.1875rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    width: 15.1875rem;
+    text-align: center;
+}
+.footer-container  p{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    width: 15.1875rem;
+    text-align: center;
+}
 
 
 /* code hidden */
@@ -251,6 +315,7 @@
 
     .navbar {
         justify-content: center;
+        /* justify-items: center; */
         align-items: center;
         flex-direction: column;
         text-align: center;
@@ -258,34 +323,41 @@
 
     .nav-head {
         text-align: center;
+        width: 15.1875rem;
     }
+
+.link-items{
+    width: 29rem;
+}
 
     .link-items a {
         text-align: center;
-        gap: 1rem;
+        gap: 0.5rem;
         margin: 0 auto;
         padding: 0;
-        width: 99%;
+        width: 90%;
     }
 
     .banner {
         justify-content: center;
+        /* justify-items: center; */
         align-items: center;
         flex-direction: column-reverse;
         text-align: center;
-        width: 99%;
+        width: 90%;
         height: 100%;
     }
 
     .banner-img {
         margin: 0 auto;
+        text-align: center;
     }
 
     .banner-text,
     .banner-img img {
         margin: 0 auto;
         padding: 0;
-        width: 99%;
+        width: 90%;
         height: 100%;
     }
 
@@ -296,7 +368,13 @@
         gap: 1rem;
         margin-top: 3.125rem;
     }
+    .cards{
+        width: 20.5625rem;
+        height: 100%;
+    }
     .card-items{
+        width: 95%;
+        height: 100%;
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
         justify-items: center;
@@ -304,5 +382,20 @@
         row-gap: 1.875rem;
     }
 
-
+.featured-product{
+    margin: 6.25rem auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.featured-img,.featured-text{
+    width: 95%;
+    height: 100%;
+}
+.featured-text> p h2{
+    width: 95%;
+    height: 100%;
+    margin-top:3.125rem ;
+}
 } 
