@@ -407,6 +407,9 @@
     align-items: center;
     flex-direction: column-reverse;
 }
+.featured-img{
+    text-align: center;
+}
 .featured-img img{
     margin-top: 1rem;
 }
